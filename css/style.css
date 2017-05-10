@@ -97,13 +97,18 @@ a {
   background-color: #ff6666;
 }
 
-/*.site-stats{
-  margin-top: 150px;
-}*/
+li > .bg_lh{
+  width: 190px;
+}
 
 @media (min-width: 979px){
   .site-stats{
-    margin-top: 155px;
-    width: 200px;
+    margin-top: 100px;
   }
+}
+@media (max-width: 1075px){
+  li > .bg_lh{
+    width: 150px;
+  }
+
 }
