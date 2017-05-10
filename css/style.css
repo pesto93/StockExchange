@@ -96,3 +96,14 @@ a {
 .btn-secondary:hover{
   background-color: #ff6666;
 }
+
+/*.site-stats{
+  margin-top: 150px;
+}*/
+
+@media (min-width: 979px){
+  .site-stats{
+    margin-top: 155px;
+    width: 200px;
+  }
+}
