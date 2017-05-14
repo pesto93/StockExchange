@@ -15,6 +15,7 @@
 <link rel="stylesheet" href="css/bootstrap-wysihtml5.css" />
 <link href="font-awesome/css/font-awesome.css" rel="stylesheet" />
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
 
@@ -33,22 +34,16 @@
   <ul class="nav">
     <li  class="dropdown" id="profile-messages" ><a title="" href="#" data-toggle="dropdown" data-target="#profile-messages" class="dropdown-toggle"><i class="icon icon-user"></i>  <span class="text">Welcome User</span><b class="caret"></b></a>
       <ul class="dropdown-menu">
-        <li><a href="#"><i class="icon-user"></i> My Profile</a></li>
-        <li class="divider"></li>
-        <li><a href="#"><i class="icon-check"></i> My Tasks</a></li>
+        <li><a href="profile.html"><i class="icon-user"></i> My Profile</a></li>
         <li class="divider"></li>
         <li><a href="login.html"><i class="icon-key"></i> Log Out</a></li>
       </ul>
     </li>
     <li class="dropdown" id="menu-messages"><a href="#" data-toggle="dropdown" data-target="#menu-messages" class="dropdown-toggle"><i class="icon icon-envelope"></i> <span class="text">Messages</span> <span class="label label-important">5</span> <b class="caret"></b></a>
       <ul class="dropdown-menu">
-        <li><a class="sAdd" title="" href="#"><i class="icon-plus"></i> new message</a></li>
-        <li class="divider"></li>
-        <li><a class="sInbox" title="" href="#"><i class="icon-envelope"></i> inbox</a></li>
-        <li class="divider"></li>
-        <li><a class="sOutbox" title="" href="#"><i class="icon-arrow-up"></i> outbox</a></li>
-        <li class="divider"></li>
-        <li><a class="sTrash" title="" href="#"><i class="icon-trash"></i> trash</a></li>
+          <li><a id="myBtn" class="sAdd" title="" href="#"><i class="icon-plus"></i> new message</a></li>
+          <li class="divider"></li>
+          <li><a class="sInbox" title="" href="#"><i class="icon-envelope"></i> inbox</a></li>
       </ul>
     </li>
     <li class=""><a title="" href="login.html"><i class="icon icon-share-alt"></i> <span class="text">Logout</span></a></li>
@@ -137,6 +132,41 @@
   </div>
  
 </div></div>
+
+<!-- /.modal compose message -->
+  <div class="dark" id="modalCompose">
+    <div class="modal show" id="modalCompose" >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+              <h4 class="modal-title">Compose Message</h4>
+            </div>
+            <div class="modal-body">
+              <form role="form" class="form-horizontal">
+                  <div class="form-group">
+                    <label class="col-sm-2" for="inputTo">To</label>
+                    <div class="col-sm-10"><input class="span5" id="inputTo" placeholder="Email" type="email"></div>
+                  </div>
+                  <div class="form-group">
+                    <label class="col-sm-2" for="inputSubject">Subject</label>
+                    <div class="col-sm-10"><input class="span5" id="inputSubject" placeholder="subject" type="text"></div>
+                  </div>
+                  <div class="form-group">
+                    <label class="col-sm-12" for="inputBody">Message</label>
+                    <div class="col-sm-12"><textarea class="span5" id="inputBody" rows="10"></textarea></div>
+                  </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Cancel</button> 
+              <button type="button" class="btn btn-primary ">Send <i class="fa fa-arrow-circle-right fa-lg"></i></button>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+
 <!--Footer-part-->
 <div class="row-fluid">
   <div id="footer" class="span12"> 2013 &copy; Matrix Admin. Brought to you by <a href="http://themedesigner.in">Themedesigner.in</a> </div>
@@ -156,6 +186,32 @@
 <script src="js/wysihtml5-0.3.0.js"></script> 
 <script src="js/jquery.peity.min.js"></script> 
 <script src="js/bootstrap-wysihtml5.js"></script> 
+
+<script type="text/javascript">
+    var modal = document.getElementById('modalCompose');
+    var btn = document.getElementById("myBtn");
+    var span = document.getElementsByClassName("close")[0];
+    var span2 = document.getElementsByClassName("pull-left")[0];
+
+    btn.onclick = function() {
+        modal.style.display = "block";
+    }
+    span.onclick = function() {
+        modal.style.display = "none";
+    }
+    span2.onclick = function() {
+        modal.style.display = "none";
+    }
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+    $(document).ready(function() {
+      modal.style.display = "none"
+    });
+  </script>
+
 <script>
 	$('.textarea_editor').wysihtml5();
 </script>
