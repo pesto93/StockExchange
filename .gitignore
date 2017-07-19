@@ -1,0 +1,7 @@
+# Created by .ignore support plugin (hsz.mobi)
+.gitignore
+.idea/StockExchange.iml
+.idea/modules.xml
+.idea/workspace.xml
+Would skip repository help/
+node_modules/
