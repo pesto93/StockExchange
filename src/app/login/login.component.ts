@@ -21,7 +21,9 @@ export class LoginComponent implements OnInit {
 
 
   private login () : void {
-    this.globalEvent.showSideMenu(true);
-    this._router.navigate(['dashboard']);
+    this._router.navigate(['dashboard']).then(() => {
+        this.globalEvent.showSideMenu(true);
+
+      });
   }
 }
