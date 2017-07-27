@@ -1,0 +1,68 @@
+
+<div id="content">
+  <div id="content-header">
+    <div id="breadcrumb"> <a href="dashboard" title="Go to Home" class="tip-bottom"><i class="icon-home"></i> Home</a> <a href="">Form</a> <a href="" class="current">Bank Info</a> </div>
+    <h1>User Validation</h1>
+  </div>
+  <div class="container-fluid"><hr>
+    <div class="row-fluid">
+      <div class="span12"  style="margin-top: 11px">
+        <div class="widget-box">
+          <div class="widget-title"> <span class="icon"> <i class="icon-pencil"></i> </span>
+            <h5>Bank validation</h5>
+          </div>
+          <div class="widget-content nopadding">
+            <form id="form-wizard" class="form-horizontal" method="post">
+              <div id="form-wizard-1" class="step">
+                <div class="control-group">
+                  <label class="control-label">Name</label>
+                  <div class="controls">
+                    <input id="Name" type="text" name="Name" required/>
+                  </div>
+                </div>
+                <div class="control-group">
+                  <label class="control-label">Surname</label>
+                  <div class="controls">
+                    <input id="surname" type="surname" name="surname" required/>
+                  </div>
+                </div>
+                <div class="control-group">
+                  <label class="control-label">Account IBAN</label>
+                  <div class="controls">
+                    <input id="IBAN" type="IBAN" name="IBAN" required/>
+                  </div>
+                </div>
+                <div class="control-group">
+                  <label class="control-label">Swift Code</label>
+                  <div class="controls">
+                    <input id="Swift" type="Swift" name="Swift" required/>
+                  </div>
+                </div>
+              </div>
+              <div id="form-wizard-2" class="step">
+                <div class="control-group">
+                  <label class="control-label">Email</label>
+                  <div class="controls">
+                    <input id="email" type="text" name="email" />
+                  </div>
+                </div>
+                <div class="control-group">
+                  <label class="control-label">EULA</label>
+                  <div class="controls">
+                    <input id="eula" type="checkbox" name="eula" />
+                  </div>
+                </div>
+              </div>
+              <div class="form-actions">
+                <input id="back" class="btn btn-primary" type="reset" ng-click="reset()" value="Reset"/>
+                <input id="next" class="btn btn-success" type="submit" ng-click="update(user)" value="Save"  />
+                <div id="status"></div>
+              </div>
+              <div id="submitted" ></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
