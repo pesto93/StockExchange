@@ -3,11 +3,11 @@
   height: 77px;
   position: relative;
   width: 100%;
-  z-index: -9;
+  z-index: 9;
 }
 
 #header h1 {
-  background: url("../../assets/img/logo.png") no-repeat scroll 0 0 transparent;
+  background: url("../../../assets/img/logo.png") no-repeat scroll 0 0 transparent;
   height: 31px;
   left: 20px;
   line-height: 600px;
@@ -56,7 +56,7 @@
   position: absolute;
   left: 220px;
   top: 0px;
-  z-index: 20;
+  z-index: 999999999;
   margin: 0;
 }
 
@@ -145,7 +145,7 @@
 }
 
 #sidebar > ul > li.active > a {
-  background: url("../../assets/img/menu-active.png") no-repeat scroll right center transparent !important;
+  background: url("../../../assets/img/menu-active.png") no-repeat scroll right center transparent !important;
   text-decoration: none;
 }
 
@@ -315,7 +315,7 @@
   }
 
   #sidebar > ul li a i {
-    background-image: url("../../assets/img/glyphicons-halflings-white.png");
+    background-image: url("../../../assets/img/glyphicons-halflings-white.png");
     margin-top: 4px;
     vertical-align: top;
   }

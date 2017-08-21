@@ -20,19 +20,17 @@ import 'assets/js/matrix.js';
 import 'assets/js/matrix.popover.js';
 import 'assets/js/select2.min.js';
 import 'jquery/dist/jquery';
-import { GloballEventManagerService } from '../service/globall-event-manager.service';
 
 @Component({
-  selector: 'app-bank-info',
-  templateUrl: './bank-info.component.html',
-  styleUrls: ['./bank-info.component.css']
+  selector: 'app-pay-pal',
+  templateUrl: './pay-pal.component.html',
+  styleUrls: ['./pay-pal.component.css']
 })
-export class BankInfoComponent implements OnInit {
+export class PayPalComponent implements OnInit {
 
-  constructor(private globalEvent : GloballEventManagerService, private _router : Router) { }
+  constructor(private _router : Router) { }
 
   ngOnInit() {
-    this.globalEvent.showSideMenu(true);
   }
 
 }

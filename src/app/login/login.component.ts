@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
-import { GloballEventManagerService } from '../service/globall-event-manager.service';
-import * as $ from 'jquery/dist/jquery';
+import * as $ from 'jquery';
+
 /*import 'assets/js/matrix.login.js';*/
 @Component({
   selector   : 'app-login',
@@ -10,18 +10,15 @@ import * as $ from 'jquery/dist/jquery';
 })
 export class LoginComponent implements OnInit {
 
-  constructor (private _router : Router,
-               private globalEvent : GloballEventManagerService) {
-  console.log($.fn.jquery);
+  constructor (private _router: Router) {
+    console.log($.fn.jquery);
   }
 
   ngOnInit () {
-    this.globalEvent.showSideMenu(false);
   }
 
 
-  private login () : void {
-    this.globalEvent.showSideMenu(true);
+  private login (): void {
     this._router.navigate(['dashboard']);
   }
 }

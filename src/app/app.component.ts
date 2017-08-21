@@ -3,9 +3,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector : 'app-root',
-  template : `
-    <app-side-menu></app-side-menu>
-    <router-outlet></router-outlet>`,
+  templateUrl : './app.component.html',
   styleUrls: ['./app.component.css'],
 })
 

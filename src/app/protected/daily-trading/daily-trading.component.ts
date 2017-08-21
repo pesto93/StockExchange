@@ -20,19 +20,17 @@ import 'assets/js/matrix.js';
 import 'assets/js/matrix.popover.js';
 import 'assets/js/select2.min.js';
 import 'jquery/dist/jquery';
-import { GloballEventManagerService } from '../service/globall-event-manager.service';
 
 @Component({
-  selector: 'app-deposit',
-  templateUrl: './deposit.component.html',
-  styleUrls: ['./deposit.component.css']
+  selector   : 'app-daily-trading',
+  templateUrl: './daily-trading.component.html',
+  styleUrls  : ['./daily-trading.component.css']
 })
-export class DepositComponent implements OnInit {
+export class DailyTradingComponent implements OnInit {
 
-  constructor(private globalEvent : GloballEventManagerService, private _router : Router) { }
+  constructor (private _router: Router) { }
 
-  ngOnInit() {
-    this.globalEvent.showSideMenu(true);
+  ngOnInit () {
   }
 
 }

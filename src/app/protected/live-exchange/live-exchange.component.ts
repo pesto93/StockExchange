@@ -1,4 +1,9 @@
 import { Component, OnInit } from '@angular/core';
+
+import 'jquery/dist/jquery';
+import 'assets/js/jquery.flot.pie.min.js';
+import 'assets/js/jquery.peity.min.js';
+import 'assets/js/matrix.charts.js';
 import { Router } from '@angular/router';
 import 'assets/js/excanvas.min.js';
 
@@ -20,19 +25,18 @@ import 'assets/js/matrix.js';
 import 'assets/js/matrix.popover.js';
 import 'assets/js/select2.min.js';
 import 'jquery/dist/jquery';
-import { GloballEventManagerService } from '../service/globall-event-manager.service';
+
 
 @Component({
-  selector: 'app-user-info',
-  templateUrl: './user-info.component.html',
-  styleUrls: ['./user-info.component.css']
+  selector: 'app-live-exchange',
+  templateUrl: './live-exchange.component.html',
+  styleUrls: ['./live-exchange.component.css']
 })
-export class UserInfoComponent implements OnInit {
 
-  constructor(private globalEvent : GloballEventManagerService, private _router : Router) { }
+export class LiveExchangeComponent implements OnInit {
+  constructor( private _router : Router) { }
 
   ngOnInit() {
-    this.globalEvent.showSideMenu(true);
   }
 
 }

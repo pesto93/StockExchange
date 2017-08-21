@@ -1,15 +1,29 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { HomeComponent } from '../home/home.component';
-import { LoginComponent } from '../login/login.component';
 import { ErrorPagesComponent } from '../error-pages/error-pages.component';
+import { LoginComponent } from '../login/login.component';
+import { SideMenuComponent } from '../protected/side-menu/side-menu.component';
 
 
-const routes : Routes = [
-  {path: '', component: HomeComponent},
-  {path: 'login', component: LoginComponent},
-  {path: '**', component: ErrorPagesComponent}
+const routes: Routes = [
+  {
+    path     : '',
+    component: LoginComponent
+  },
+  {
+    path     : 'login',
+    component: LoginComponent
+  },
+  {
+    path     : 'dashboard',
+    component: SideMenuComponent
+
+  },
+  {
+    path     : '**',
+    component: ErrorPagesComponent
+  }
 ];
 
 @NgModule({
@@ -17,7 +31,7 @@ const routes : Routes = [
     CommonModule,
     RouterModule.forRoot(routes)
   ],
-  declarations: []
+  exports: [RouterModule]
 })
 export class AppRouteModule {
 }
