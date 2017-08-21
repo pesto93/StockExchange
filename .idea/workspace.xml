@@ -1,59 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1a54221d-2447-4041-b661-c4226776fcc3" name="Default" comment="restructure folders. and header nav menu problem fixed..">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/model/user.ts" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/app/bank-info/bank-info.component.css" afterPath="$PROJECT_DIR$/src/app/protected/bank-info/bank-info.component.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/app/bank-info/bank-info.component.html" afterPath="$PROJECT_DIR$/src/app/protected/bank-info/bank-info.component.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/app/bank-info/bank-info.component.spec.ts" afterPath="$PROJECT_DIR$/src/app/protected/bank-info/bank-info.component.spec.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/app/bank-info/bank-info.component.ts" afterPath="$PROJECT_DIR$/src/app/protected/bank-info/bank-info.component.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/app/bank-transfer/bank-transfer.component.css" afterPath="$PROJECT_DIR$/src/app/protected/bank-transfer/bank-transfer.component.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/app/bank-transfer/bank-transfer.component.html" afterPath="$PROJECT_DIR$/src/app/protected/bank-transfer/bank-transfer.component.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/app/bank-transfer/bank-transfer.component.spec.ts" afterPath="$PROJECT_DIR$/src/app/protected/bank-transfer/bank-transfer.component.spec.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/app/bank-transfer/bank-transfer.component.ts" afterPath="$PROJECT_DIR$/src/app/protected/bank-transfer/bank-transfer.component.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/app/daily-trading/daily-trading.component.css" afterPath="$PROJECT_DIR$/src/app/protected/daily-trading/daily-trading.component.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/app/daily-trading/daily-trading.component.html" afterPath="$PROJECT_DIR$/src/app/protected/daily-trading/daily-trading.component.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/app/daily-trading/daily-trading.component.spec.ts" afterPath="$PROJECT_DIR$/src/app/protected/daily-trading/daily-trading.component.spec.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/app/daily-trading/daily-trading.component.ts" afterPath="$PROJECT_DIR$/src/app/protected/daily-trading/daily-trading.component.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/app/deposit/deposit.component.css" afterPath="$PROJECT_DIR$/src/app/protected/deposit/deposit.component.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/app/deposit/deposit.component.html" afterPath="$PROJECT_DIR$/src/app/protected/deposit/deposit.component.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/app/deposit/deposit.component.spec.ts" afterPath="$PROJECT_DIR$/src/app/protected/deposit/deposit.component.spec.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/app/deposit/deposit.component.ts" afterPath="$PROJECT_DIR$/src/app/protected/deposit/deposit.component.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/app/home/home.component.css" afterPath="$PROJECT_DIR$/src/app/protected/home/home.component.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/app/home/home.component.html" afterPath="$PROJECT_DIR$/src/app/protected/home/home.component.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/app/home/home.component.spec.ts" afterPath="$PROJECT_DIR$/src/app/protected/home/home.component.spec.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/app/home/home.component.ts" afterPath="$PROJECT_DIR$/src/app/protected/home/home.component.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/app/live-exchange/live-exchange.component.css" afterPath="$PROJECT_DIR$/src/app/protected/live-exchange/live-exchange.component.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/app/live-exchange/live-exchange.component.html" afterPath="$PROJECT_DIR$/src/app/protected/live-exchange/live-exchange.component.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/app/live-exchange/live-exchange.component.spec.ts" afterPath="$PROJECT_DIR$/src/app/protected/live-exchange/live-exchange.component.spec.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/app/live-exchange/live-exchange.component.ts" afterPath="$PROJECT_DIR$/src/app/protected/live-exchange/live-exchange.component.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/app/mg/mg.component.css" afterPath="$PROJECT_DIR$/src/app/protected/mg/mg.component.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/app/mg/mg.component.html" afterPath="$PROJECT_DIR$/src/app/protected/mg/mg.component.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/app/mg/mg.component.spec.ts" afterPath="$PROJECT_DIR$/src/app/protected/mg/mg.component.spec.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/app/mg/mg.component.ts" afterPath="$PROJECT_DIR$/src/app/protected/mg/mg.component.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/app/pay-pal/pay-pal.component.css" afterPath="$PROJECT_DIR$/src/app/protected/pay-pal/pay-pal.component.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/app/pay-pal/pay-pal.component.html" afterPath="$PROJECT_DIR$/src/app/protected/pay-pal/pay-pal.component.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/app/pay-pal/pay-pal.component.spec.ts" afterPath="$PROJECT_DIR$/src/app/protected/pay-pal/pay-pal.component.spec.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/app/pay-pal/pay-pal.component.ts" afterPath="$PROJECT_DIR$/src/app/protected/pay-pal/pay-pal.component.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/app/side-menu/side-menu.component.css" afterPath="$PROJECT_DIR$/src/app/protected/side-menu/side-menu.component.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/app/side-menu/side-menu.component.html" afterPath="$PROJECT_DIR$/src/app/protected/side-menu/side-menu.component.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/app/side-menu/side-menu.component.spec.ts" afterPath="$PROJECT_DIR$/src/app/protected/side-menu/side-menu.component.spec.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/app/side-menu/side-menu.component.ts" afterPath="$PROJECT_DIR$/src/app/protected/side-menu/side-menu.component.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/app/user-info/user-info.component.css" afterPath="$PROJECT_DIR$/src/app/protected/user-info/user-info.component.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/app/user-info/user-info.component.html" afterPath="$PROJECT_DIR$/src/app/protected/user-info/user-info.component.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/app/user-info/user-info.component.spec.ts" afterPath="$PROJECT_DIR$/src/app/protected/user-info/user-info.component.spec.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/app/user-info/user-info.component.ts" afterPath="$PROJECT_DIR$/src/app/protected/user-info/user-info.component.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/app/wu/wu.component.css" afterPath="$PROJECT_DIR$/src/app/protected/wu/wu.component.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/app/wu/wu.component.html" afterPath="$PROJECT_DIR$/src/app/protected/wu/wu.component.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/app/wu/wu.component.spec.ts" afterPath="$PROJECT_DIR$/src/app/protected/wu/wu.component.spec.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/app/wu/wu.component.ts" afterPath="$PROJECT_DIR$/src/app/protected/wu/wu.component.ts" />
+    <list default="true" id="1a54221d-2447-4041-b661-c4226776fcc3" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/app-route/app.route.module.ts" afterPath="$PROJECT_DIR$/src/app/app-route/app.route.module.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/app.component.html" afterPath="$PROJECT_DIR$/src/app/app.component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/app.component.ts" afterPath="$PROJECT_DIR$/src/app/app.component.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/app.module.ts" afterPath="$PROJECT_DIR$/src/app/app.module.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/login/login.component.ts" afterPath="$PROJECT_DIR$/src/app/login/login.component.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/protected/protected.module.ts" afterPath="$PROJECT_DIR$/src/app/protected/protected.module.ts" />
     </list>
     <ignored path="node_modules/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -95,8 +44,8 @@
       <file leaf-file-name="side-menu.component.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/app/protected/side-menu/side-menu.component.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="49" column="36" lean-forward="false" selection-start-line="49" selection-start-column="36" selection-end-line="49" selection-end-column="36" />
+            <state relative-caret-position="203">
+              <caret line="51" column="1" lean-forward="true" selection-start-line="51" selection-start-column="1" selection-end-line="51" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -251,10 +200,11 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds">
-    <option name="y" value="29" />
-    <option name="width" value="1600" />
-    <option name="height" value="879" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-1" />
+    <option name="y" value="4" />
+    <option name="width" value="1602" />
+    <option name="height" value="905" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -827,7 +777,7 @@
       <workItem from="1501066572489" duration="1370000" />
       <workItem from="1501068853408" duration="11278000" />
       <workItem from="1501325255677" duration="2403000" />
-      <workItem from="1503333691788" duration="5435000" />
+      <workItem from="1503333691788" duration="5709000" />
     </task>
     <task id="LOCAL-00001" summary="Just testing pull branch">
       <created>1503334329328</created>
@@ -836,23 +786,29 @@
       <option name="project" value="LOCAL" />
       <updated>1503334329328</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="restructure folders. and header nav menu problem fixed..">
+      <created>1503340255039</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1503340255039</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20486000" />
+    <option name="totallyTimeSpent" value="20760000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="29" width="1600" height="879" extended-state="0" />
-    <editor active="true" />
+    <frame x="-1" y="-4" width="1602" height="905" extended-state="6" />
     <layout>
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292517" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25681674" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25649145" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3292517" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31800264" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32838285" sideWeight="0.5030628" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292517" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3285151" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.370068" sideWeight="0.49693722" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1327,8 +1283,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/protected/side-menu/side-menu.component.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="49" column="36" lean-forward="false" selection-start-line="49" selection-start-column="36" selection-end-line="49" selection-end-column="36" />
+        <state relative-caret-position="203">
+          <caret line="51" column="1" lean-forward="true" selection-start-line="51" selection-start-column="1" selection-end-line="51" selection-end-column="1" />
           <folding />
         </state>
       </provider>
