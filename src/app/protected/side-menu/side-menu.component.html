@@ -1,7 +1,7 @@
 <div>
   <!--Header-part-->
   <div id="header">
-    <h1><a href="dashboard.html">Matrix Admin</a></h1>
+    <h1><a routerLink="home">Matrix Admin</a></h1>
   </div>
   <!--close-Header-part-->
   <!--top-Header-menu-->
@@ -11,7 +11,7 @@
         <a title="" href="#" data-toggle="dropdown" data-target="#profile-messages" class="dropdown-toggle">
           <i class="icon icon-user"></i> <span class="text">Welcome User</span><b class="caret"></b></a>
         <ul class="dropdown-menu">
-          <li><a href="profile.html"><i class="icon-user"></i> My Profile</a></li>
+          <li><a routerLink="profile"><i class="icon-user"></i> My Profile</a></li>
           <li class="divider"></li>
           <li><a routerLink="login"><i class="icon-key"></i> Log Out</a></li>
         </ul>
@@ -41,7 +41,7 @@
   <div id="sidebar">
     <a href="#" class="visible-phone"><i class="icon icon-home"></i> Dashboard</a>
     <ul class="side-nav">
-      <li routerLinkActive="active"><a routerLink="dashboard"><i class="icon icon-home"></i> <span>Dashboard</span></a>
+      <li routerLinkActive="active"><a routerLink="home"><i class="icon icon-home"></i> <span>Dashboard</span></a>
       </li>
       <li routerLinkActive="active"><a routerLink="live-exchange"><i class="icon icon-signal"></i>
         <span>Live Exchange</span></a></li>

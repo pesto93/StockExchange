@@ -2,15 +2,128 @@
 
 <div id="content">
   <div id="content-header">
-    <div id="breadcrumb"> <a href="index.html" title="Go to Home" class="tip-bottom"><i class="icon-home"></i> Home</a> <a href="#" class="tip-bottom">Form elements</a> <a href="#" class="current">Common elements</a> </div>
-    <h1>Common Form Elements</h1>
+    <div id="breadcrumb">
+      <a routerLink="dashboard" title="Go to Home" class="tip-bottom">
+        <i class="icon-home"></i>
+        Home
+      </a>
+      <a href="#" class="current">My Profile</a>
+    </div>
   </div>
-  <div class="container-fluid">
+
+  <div class="content-wrapper">
+    <!-- Main content -->
+    <section class="content-header">
+      <h1>
+        User Profile
+      </h1>
+    </section>
+    <section class="content">
+      <div class="row">
+        <div class="col-md-3">
+
+          <!-- Profile Image -->
+          <div class="box box-primary">
+            <div class="box-body box-profile">
+              <img class="profile-user-img img-responsive img-circle" src="../../../assets/img/demo/av1.jpg"
+                   alt="User profile picture">
+              <h3 class="profile-username text-center">Nina Mcintire</h3>
+            </div><!-- /.box-body -->
+          </div><!-- /.box -->
+
+          <!-- About Me Box -->
+          <div class="box box-primary">
+            <div class="box-header with-border">
+              <h3 class="box-title">About Me</h3>
+            </div><!-- /.box-header -->
+            <div class="box-body">
+              <strong><i class="fa fa-book margin-r-5"></i> Education</strong>
+              <p class="text-muted">
+                B.S. in Computer Science from the University of Tennessee at Knoxville
+              </p>
+
+              <hr>
+
+              <strong><i class="fa fa-map-marker margin-r-5"></i> Location</strong>
+              <p class="text-muted">Malibu, California</p>
+
+            </div><!-- /.box-body -->
+          </div><!-- /.box -->
+        </div><!-- /.col -->
+        <div class="col-md-9">
+          <div class="nav-tabs-custom">
+            <ul class="nav nav-tabs">
+              <li class="active"><a href="#activity" data-toggle="tab">Activity</a></li>
+              <li><a href="#settings" data-toggle="tab">Settings</a></li>
+            </ul>
+            <div class="tab-content">
+              <div class="active tab-pane" id="activity">
+                <p>
+                  Users activities here.
+                </p>
+              </div><!-- /.tab-pane -->
+
+              <div class="tab-pane" id="settings">
+                <form class="form-horizontal">
+                  <div class="form-group">
+                    <label for="inputName" class="col-sm-2 control-label">Name</label>
+                    <div class="col-sm-10">
+                      <input type="email" class="form-control" id="inputName" placeholder="Name">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="inputEmail" class="col-sm-2 control-label">Email</label>
+                    <div class="col-sm-10">
+                      <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="inputName" class="col-sm-2 control-label">Name</label>
+                    <div class="col-sm-10">
+                      <input type="text" class="form-control" id="inputName" placeholder="Name">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="inputExperience" class="col-sm-2 control-label">Experience</label>
+                    <div class="col-sm-10">
+                      <textarea class="form-control" id="inputExperience" placeholder="Experience"></textarea>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="inputSkills" class="col-sm-2 control-label">Skills</label>
+                    <div class="col-sm-10">
+                      <input type="text" class="form-control" id="inputSkills" placeholder="Skills">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="col-sm-offset-2 col-sm-10">
+                      <div class="checkbox">
+                        <label>
+                          <input type="checkbox"> I agree to the <a href="#">terms and conditions</a>
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="col-sm-offset-2 col-sm-10">
+                      <button type="submit" class="btn btn-danger">Submit</button>
+                    </div>
+                  </div>
+                </form>
+              </div><!-- /.tab-pane -->
+            </div><!-- /.tab-content -->
+          </div><!-- /.nav-tabs-custom -->
+        </div><!-- /.col -->
+      </div><!-- /.row -->
+
+    </section><!-- /.content -->
+  </div><!-- /.content-wrapper -->
+  <!--<div class="container-fluid">
     <hr>
     <div class="row-fluid">
       <div class="span11">
         <div class="widget-box">
-          <div class="widget-title"> <span class="icon"> <i class="icon-align-justify"></i> </span>
+          <div class="widget-title"><span class="icon"> <i class="icon-align-justify"></i> </span>
             <h5>Personal-info</h5>
           </div>
           <div class="widget-content nopadding">
@@ -18,7 +131,7 @@
               <div class="control-group">
                 <label class="control-label">Name :</label>
                 <div class="controls">
-                  <input type="text" class="span11" placeholder="First name" />
+                  <input type="text" class="span11" placeholder="First name"/>
                 </div>
               </div>
 
@@ -32,7 +145,7 @@
               <div class="control-group">
                 <label class="control-label">Gender :</label>
                 <div class="controls">
-                  <select >
+                  <select>
                     <option>Male</option>
                     <option>Female</option>
                   </select>
@@ -42,14 +155,14 @@
               <div class="control-group">
                 <label class="control-label">New Password</label>
                 <div class="controls">
-                  <input type="password"  class="span11" placeholder="Enter Password" id="password" />
+                  <input type="password" class="span11" placeholder="Enter Password" id="password"/>
                 </div>
               </div>
 
               <div class="control-group">
                 <label class="control-label">Repeat Password</label>
                 <div class="controls">
-                  <input type="password"  class="span11" placeholder="Repeat Password" id="confirm_password"  />
+                  <input type="password" class="span11" placeholder="Repeat Password" id="confirm_password"/>
                 </div>
               </div>
 
@@ -57,13 +170,13 @@
                 <label for="normal" class="control-label">Phone No :</label>
                 <div class="controls">
                   <input type="text" class="span8 mask text">
-                  <span class="help-block blue span8">(999) 999-9999</span> </div>
+                  <span class="help-block blue span8">(999) 999-9999</span></div>
               </div>
 
               <div class="control-group">
                 <label class="control-label">Address line 1:</label>
                 <div class="controls">
-                  <input type="text" class="span11" placeholder="Address 1" />
+                  <input type="text" class="span11" placeholder="Address 1"/>
                 </div>
               </div>
 
@@ -191,7 +304,8 @@
                     <option value="Kazakhstan">Kazakhstan</option>
                     <option value="Kenya">Kenya</option>
                     <option value="Kiribati">Kiribati</option>
-                    <option value="Democratic People's Republic of Korea">Korea, Democratic People's Republic of</option>
+                    <option value="Democratic People's Republic of Korea">Korea, Democratic People's Republic of
+                    </option>
                     <option value="Korea">Korea, Republic of</option>
                     <option value="Kuwait">Kuwait</option>
                     <option value="Kyrgyzstan">Kyrgyzstan</option>
@@ -324,15 +438,15 @@
               <div class="control-group">
                 <label class="control-label">Company info [Optional] :</label>
                 <div class="controls">
-                  <input type="text" class="span11" placeholder="Company name" />
+                  <input type="text" class="span11" placeholder="Company name"/>
                 </div>
               </div>
 
               <div class="control-group">
                 <label class="control-label">Description field:</label>
                 <div class="controls">
-                  <input type="text" class="span11" />
-                  <span class="help-block">Description field</span> </div>
+                  <input type="text" class="span11"/>
+                  <span class="help-block">Description field</span></div>
               </div>
 
               <div class="form-actions">
@@ -343,4 +457,5 @@
         </div>
       </div>
     </div>
-  </div></div>
+  </div>-->
+</div>

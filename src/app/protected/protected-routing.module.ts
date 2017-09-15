@@ -7,6 +7,7 @@ import { BankTransferComponent } from './bank-transfer/bank-transfer.component';
 import { HomeComponent } from './home/home.component';
 import { SideMenuComponent } from './side-menu/side-menu.component';
 import { LiveExchangeComponent } from './live-exchange/live-exchange.component';
+import { UserInfoComponent } from './user-info/user-info.component';
 
 
 /**
@@ -40,6 +41,10 @@ const protected_routes: Routes = [
       {
         path     : 'bank-transfer',  // can use this now like so routerLink="bank-transfer" in side-menu.component.html
         component: BankTransferComponent,
+      },
+      {
+        path: 'profile',
+        component: UserInfoComponent
       },
       {
         path     : '**',

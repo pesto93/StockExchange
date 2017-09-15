@@ -19,6 +19,6 @@ export class LoginComponent implements OnInit {
 
 
   private login (): void {
-    this._router.navigate(['dashboard']);
+    this._router.navigate(['dashboard/home']);
   }
 }
